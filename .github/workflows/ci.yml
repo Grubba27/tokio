@@ -9,6 +9,7 @@ name: CI
 env:
   RUSTFLAGS: -Dwarnings
   RUST_BACKTRACE: 1
+  RUSTUP_TOOLCHAIN: 1.56.0
   nightly: nightly-2021-04-25
   minrust: 1.45.2
 
